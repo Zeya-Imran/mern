@@ -13,4 +13,15 @@ a project on MERN
   use this command  [npm i -D prettier] after the installation create thses files on the root
   .prettierrc, .prettieringnorre
 
+we are going to setup DB in mongoodb(Atlas) follow the steps (second shot(v-7))
+
+- First creat an account on the mongoodb atlas (atlas)[https://cloud.mongodb.com/]
+- store all credential in .env
+
+Now, we need mongoose and express so install via npm
+[npm i mongoose][npm i express][npm i dotenv]
+
+- we wrote the connection code inside the src/db/index and called it root of src ./index
+- we did lots of things regarding the dotenv for  import statement and some change did inside p.json
+
 
