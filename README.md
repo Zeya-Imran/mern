@@ -24,4 +24,18 @@ Now, we need mongoose and express so install via npm
 - we wrote the connection code inside the src/db/index and called it root of src ./index
 - we did lots of things regarding the dotenv for  import statement and some change did inside p.json
 
+Ready for another commit (reference (v-8))
 
+- Fist things we did express start and connect on the db response thorw TC on root src/index
+- again we need some package like cookie-parser and CORS
+- we handle separatly ApiError, APiResponse and async function inside utils/files
+- you can find the all the in this commit wiht name [handle the error response separatly]
+
+wow, we are ready for creating the model (reference (v-9))
+
+- we have created first model with name USER and second VIDEO
+- now we need one more npm package mongoose aggregate paginate
+  [npm i mongoose-aggregate-paginate-v2]
+- time to talk about the PASSWORD storing the DB, so need two library, one is 
+  bcrypt [npm i bcrypt], second is JWT [npm i jsonwebtoken]
+- luckly we wrote the code for access and refresh token inside the user.model.js
